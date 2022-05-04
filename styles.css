@@ -107,21 +107,18 @@ header .logo {
 
 @media screen and (max-width: 900px) and (min-width: 400px) {
     .content .textBox h2 {
-        font-size: 2.2em;
+        font-size: 2em;
         line-height: 1.25em;
         font-weight: 900;
         text-transform: uppercase;
     }
-
-
-    
     .content .textBox h2 span {
         color: #333333;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .content .textBox {
-        padding-top: 20px;
+        padding-top: 40px;
     }
 }
 
