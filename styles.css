@@ -38,7 +38,7 @@ header .logo {
 }
 
 header .name {
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 header .name h1 {
@@ -138,11 +138,13 @@ header .name h1 {
 } 
 
 @media screen and (max-width: 600px) and (min-width: 200px) {
+    header .name {
+        letter-spacing: 0px;
+    }
     .content .textBox {
         padding-top: 40px;
     
     }
-    
     .content .textBox h2 {
         font-size: 1.9em;
         line-height: 1.5em;
